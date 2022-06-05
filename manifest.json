@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "chrome-extension-template",
+  "description": "Chrome Extension Template",
+  "version": "0.0.1",
+  "icons": {
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "action": {
+    "default_title": "Example Action",
+    "default_popup": "action-popup.html"
+  },
+  "permissions": [
+    "background",
+    "notifications",
+    "storage"
+  ],
+  "host_permissions": [
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
